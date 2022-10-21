@@ -82,6 +82,29 @@ const AuthForm = ({ type, form, onChange, onSubmit, error }) => {
           </h3>
         )}
       </div>
+      <div className={'else3'}>
+        <span>Meta </span>
+        <span>소개 </span>
+        <span>블로그 </span>
+        <span>채용 정보 </span>
+        <span>도움말 </span>
+        <span>API </span>
+        <span>개인정보처리방침 </span>
+        <span>약관 </span>
+        <span>인기 계정 </span>
+        <span>해시태그 </span>
+        <span>위치 </span>
+        <span>Instagram Life </span>
+        <span>연락처 업로드 &amp; 비사용자</span>
+      </div>
+      <div className={'else4'}>
+        <span>댄스 </span>
+        <span>식음료 </span>
+        <span>집 및 정원 </span>
+        <span>음악 </span>
+        <span>시각 예술 </span>
+      </div>
+      <div className={'else2'}>© 2022 Instagram from Meta</div>
     </>
   );
 };

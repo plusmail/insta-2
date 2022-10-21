@@ -1,0 +1,15 @@
+{
+  "name": "insta-pjt",
+  "version": "0.1.0",
+  "description": "insta-pjt",
+  "author": "----",
+  "license": "MIT",
+  "scripts": {
+    "client": "cd frontend && npm start",
+    "server": "cd backend && npm start",
+    "client_install": "cd frontend && npm install",
+    "server_install": "cd backend && npm install",
+    "start": "concurrently npm:server npm:client",
+    "install": "concurrently npm:server_install npm:client_install"
+  }
+}
